@@ -44,3 +44,12 @@ body {
         width:20%;
         border: 2px dotted floralwhite;
     }
+    .overall {
+        width: 80%;
+        margin: auto;
+        background-color: tan;
+        border: 1px solid black;
+        box-shadow: 0px 0px 5px blanchedalmond;
+        height: 100%;
+        margin-top: 20px;
+    }
