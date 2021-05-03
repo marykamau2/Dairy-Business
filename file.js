@@ -21,3 +21,10 @@ for(var i = 0; i < items.length; i++)
 
 var dailyIncome;
 var rate = 45;
+dailyIncome = totalCapacity() * 45;
+  weeklyIncome = dailyIncome * 7;
+  yearlyIncome = dailyIncome * 366;
+
+  function dayAdd(){
+    console.log(dailyIncome);
+  }
