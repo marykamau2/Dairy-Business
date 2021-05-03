@@ -28,3 +28,6 @@ dailyIncome = totalCapacity() * 45;
   function dayAdd(){
     console.log(dailyIncome);
   }
+  function weekAdd(){
+    console.log(weeklyIncome);
+  }
