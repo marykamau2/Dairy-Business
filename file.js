@@ -50,3 +50,7 @@ dailyIncome = totalCapacity() * 45;
   document.getElementById('yearly').addEventListener('click',yearAdd());
   var mon = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var dayOfMonth= [ 31,29,31,30,31,30,31,31,30,31,30,31];
+  for (i = 0; i<mon.length; i++){
+    var sum = dayOfMonth[i] *dailyIncome;
+    document.getElementById('monthly')= 'Your income for ' + mon[i] +  ' is  Ksh' + sum;
+}
