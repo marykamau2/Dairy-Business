@@ -45,3 +45,6 @@ dailyIncome = totalCapacity() * 45;
   function yearAdd(){
     console.log(yearlyIncome);
   }
+  document.getElementById('daily').addEventListener('click',dayAdd());
+  document.getElementById('weekly').addEventListener('click',weekAdd());
+  document.getElementById('yearly').addEventListener('click',yearAdd());
