@@ -1,5 +1,5 @@
 # PROJECT NAME
-Anitas Kitchen
+Dairy Business
 ##  AUTHOR
 Mary Njeri Kamau
 ###  DESCRIPTION
